@@ -1,0 +1,71 @@
+{
+  "dashboard": {
+    "title": "セキュリティダッシュボード",
+    "subtitle": "組織のサイバーリスクを監視",
+    "actions": {
+      "startScan": "スキャンを開始",
+      "refreshDashboard": "ダッシュボードを更新",
+      "viewAll": "すべて表示",
+      "viewDetails": "詳細を表示",
+      "exportReport": "レポートをエクスポート"
+    },
+    "metrics": {
+      "criticalVulnerabilities": "未解決の重大な脆弱性",
+      "assetsLogged": "登録済みアセット",
+      "failureWarning": "障害警告",
+      "systemStatus": "システムステータス",
+      "exposureScore": "リスクスコア",
+      "highRiskAssets": "高リスクアセット",
+      "threatsDetected": "検出された脅威",
+      "activeResponseActions": "実行中の対応アクション"
+    },
+    "status": {
+      "healthy": "正常",
+      "operational": "すべてのシステムが正常に稼働しています",
+      "requiresAttention": "対応が必要です",
+      "critical": "重大",
+      "high": "高",
+      "medium": "中",
+      "low": "低"
+    },
+    "vulnerabilities": {
+      "title": "未解決の重大な脆弱性",
+      "affectedAssets": "影響を受けるアセット",
+      "detected": "検出",
+      "lastDetected": "最終検出",
+      "noResults": "重大な脆弱性は見つかりませんでした"
+    },
+    "monitoring": {
+      "title": "組織のサイバーリスクを監視",
+      "description": "環境全体のアセット、脆弱性、および新たな脅威を継続的に監視します。"
+    },
+    "logs": {
+      "title": "ログ",
+      "suspiciousLogin": "不審なログインを検出しました",
+      "malwareDetected": "マルウェアのシグネチャを検出しました",
+      "firewallChange": "ファイアウォールルールの変更を検出しました",
+      "assetRegistered": "新しいアセットが登録されました",
+      "threatFeedUpdated": "脅威インテリジェンスフィードが更新されました"
+    },
+    "projects": {
+      "title": "プロジェクト",
+      "ransomwareDefense": "ランサムウェア防御イニシアチブ",
+      "cloudSecurity": "クラウドセキュリティ強化",
+      "thirdPartyRisk": "サードパーティリスク評価",
+      "endpointProtection": "エンドポイント保護の展開",
+      "securityAwareness": "セキュリティ意識向上プログラム"
+    },
+    "updates": {
+      "lastUpdated": "最終更新",
+      "justNow": "たった今",
+      "minutesAgo": "{{count}}分前",
+      "hoursAgo": "{{count}}時間前"
+    },
+    "errors": {
+      "loadFailed": "ダッシュボードデータを読み込めません",
+      "scanFailed": "セキュリティスキャンに失敗しました",
+      "connectionLost": "監視サービスへの接続が失われました",
+      "tryAgain": "もう一度お試しください。問題が解決しない場合は、管理者にお問い合わせください。"
+    }
+  }
+}
