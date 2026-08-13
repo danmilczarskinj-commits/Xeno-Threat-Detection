@@ -1,0 +1,71 @@
+{
+  "dashboard": {
+    "title": "Security Dashboard",
+    "subtitle": "Monitor your organization's cyber exposure",
+    "actions": {
+      "startScan": "Start Scan",
+      "refreshDashboard": "Refresh Dashboard",
+      "viewAll": "View All",
+      "viewDetails": "View Details",
+      "exportReport": "Export Report"
+    },
+    "metrics": {
+      "criticalVulnerabilities": "Open Critical Vulnerabilities",
+      "assetsLogged": "Assets Logged",
+      "failureWarning": "Failure Warning",
+      "systemStatus": "System Status",
+      "exposureScore": "Exposure Score",
+      "highRiskAssets": "High Risk Assets",
+      "threatsDetected": "Threats Detected",
+      "activeResponseActions": "Active Response Actions"
+    },
+    "status": {
+      "healthy": "Healthy",
+      "operational": "All systems operational",
+      "requiresAttention": "Requires attention",
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "vulnerabilities": {
+      "title": "Open Critical Vulnerabilities",
+      "affectedAssets": "Affected Assets",
+      "detected": "Detected",
+      "lastDetected": "Last Detected",
+      "noResults": "No critical vulnerabilities found"
+    },
+    "monitoring": {
+      "title": "Monitor your organization's cyber exposure",
+      "description": "Continuously monitor assets, vulnerabilities, and emerging threats across your environment."
+    },
+    "logs": {
+      "title": "Logs",
+      "suspiciousLogin": "Suspicious login detected",
+      "malwareDetected": "Malware signature detected",
+      "firewallChange": "Firewall rule change detected",
+      "assetRegistered": "New asset registered",
+      "threatFeedUpdated": "Threat intelligence feed updated"
+    },
+    "projects": {
+      "title": "Projects",
+      "ransomwareDefense": "Ransomware Defense Initiative",
+      "cloudSecurity": "Cloud Security Hardening",
+      "thirdPartyRisk": "Third-Party Risk Assessment",
+      "endpointProtection": "Endpoint Protection Rollout",
+      "securityAwareness": "Security Awareness Program"
+    },
+    "updates": {
+      "lastUpdated": "Last Updated",
+      "justNow": "Just now",
+      "minutesAgo": "{{count}} minutes ago",
+      "hoursAgo": "{{count}} hours ago"
+    },
+    "errors": {
+      "loadFailed": "Unable to load dashboard data",
+      "scanFailed": "Security scan failed",
+      "connectionLost": "Connection to the monitoring service was lost",
+      "tryAgain": "Please try again or contact your administrator if the problem persists."
+    }
+  }
+}
