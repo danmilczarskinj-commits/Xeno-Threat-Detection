@@ -1,0 +1,71 @@
+{
+  "dashboard": {
+    "title": "Tableau de bord de sécurité",
+    "subtitle": "Surveillez l'exposition de votre organisation aux cybermenaces",
+    "actions": {
+      "startScan": "Lancer l'analyse",
+      "refreshDashboard": "Actualiser le tableau de bord",
+      "viewAll": "Tout afficher",
+      "viewDetails": "Afficher les détails",
+      "exportReport": "Exporter le rapport"
+    },
+    "metrics": {
+      "criticalVulnerabilities": "Vulnérabilités critiques ouvertes",
+      "assetsLogged": "Actifs enregistrés",
+      "failureWarning": "Avertissement d'échec",
+      "systemStatus": "État du système",
+      "exposureScore": "Score d'exposition",
+      "highRiskAssets": "Actifs à haut risque",
+      "threatsDetected": "Menaces détectées",
+      "activeResponseActions": "Actions de réponse actives"
+    },
+    "status": {
+      "healthy": "Sain",
+      "operational": "Tous les systèmes sont opérationnels",
+      "requiresAttention": "Nécessite votre attention",
+      "critical": "Critique",
+      "high": "Élevé",
+      "medium": "Moyen",
+      "low": "Faible"
+    },
+    "vulnerabilities": {
+      "title": "Vulnérabilités critiques ouvertes",
+      "affectedAssets": "Actifs affectés",
+      "detected": "Détecté",
+      "lastDetected": "Dernière détection",
+      "noResults": "Aucune vulnérabilité critique détectée"
+    },
+    "monitoring": {
+      "title": "Surveillez l'exposition de votre organisation aux cybermenaces",
+      "description": "Surveillez en permanence les actifs, les vulnérabilités et les menaces émergentes dans votre environnement."
+    },
+    "logs": {
+      "title": "Journaux",
+      "suspiciousLogin": "Connexion suspecte détectée",
+      "malwareDetected": "Signature de logiciel malveillant détectée",
+      "firewallChange": "Modification d'une règle de pare-feu détectée",
+      "assetRegistered": "Nouvel actif enregistré",
+      "threatFeedUpdated": "Flux de renseignements sur les menaces mis à jour"
+    },
+    "projects": {
+      "title": "Projets",
+      "ransomwareDefense": "Initiative de défense contre les rançongiciels",
+      "cloudSecurity": "Renforcement de la sécurité du cloud",
+      "thirdPartyRisk": "Évaluation des risques liés aux tiers",
+      "endpointProtection": "Déploiement de la protection des terminaux",
+      "securityAwareness": "Programme de sensibilisation à la sécurité"
+    },
+    "updates": {
+      "lastUpdated": "Dernière mise à jour",
+      "justNow": "À l'instant",
+      "minutesAgo": "Il y a {{count}} minutes",
+      "hoursAgo": "Il y a {{count}} heures"
+    },
+    "errors": {
+      "loadFailed": "Impossible de charger les données du tableau de bord",
+      "scanFailed": "Échec de l'analyse de sécurité",
+      "connectionLost": "La connexion au service de surveillance a été interrompue",
+      "tryAgain": "Veuillez réessayer ou contacter votre administrateur si le problème persiste."
+    }
+  }
+}
